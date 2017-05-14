@@ -6,14 +6,14 @@ and returns a JSON object with both the unix timestamp and natural date.
 
 ## Usage
 
-```http://api-timestamp.node.iadw.in/[timestamp]```
+```http://timestamp.nodejs.iadw.in/[timestamp]```
 
 ## Example
 
 ### Input
-```http://api-timestamp.node.iadw.in/December%2015,%202015```
+```http://timestamp.nodejs.iadw.in/December%2015,%202015```
 
-```http://api-timestamp.node.iadw.in/1450137600```
+```http://timestamp.nodejs.iadw.in/1450137600```
 
 ### Output
 ```{ "unix": 1450137600, "natural": "December 15, 2015" }```
