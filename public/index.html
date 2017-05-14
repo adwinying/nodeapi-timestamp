@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Timestamp Microservice</title>
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+  </head>
+  <body>
+    <div class="container text-center">
+    	<h1>Timestamp Microservice</h1>
+    	<h4>An API Powered by NodeJS</h4>
+    </div>
+    <div class="container">
+      <h2>Summary</h2>
+      <p>Takes in either unix timestamps or natural dates (eg. January 1, 1970) <br>
+      and returns a JSON object with both the unix timestamp and natural date.</p>
+
+      <h2>Usage</h2>
+      <code>http://someurl.com/[timestamp]</code>
+
+      <h2>Examples</h2>
+      <h3>Input</h3>
+      <code>http://someurl.com/December%2015,%202015</code><br>
+      <code>http://someurl.com/1450137600</code>
+
+      <h3>Output</h3>
+      <code>{ "unix": 1450137600, "natural": "December 15, 2015" }</code>
+
+    </div>
+  </body>
+</html>
