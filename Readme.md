@@ -12,6 +12,7 @@ and returns a JSON object with both the unix timestamp and natural date.
 
 ### Input
 ```http://someurl.com/December%2015,%202015```
+
 ```http://someurl.com/1450137600```
 
 ### Output
